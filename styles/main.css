@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Lexend';
+  src: url(../fonts/Lexend.ttf);
+}
+:root {
+  --blue: #02f;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+  color: #000;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+  
+}
+
+nav ul li a:hover {
+  color: var(--blue);
+  transition: 1s;
+}
+
+h2 span {
+  color: var(--blue);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #fff;
+  padding: 30px 30px;
+}
+
+.logo {
+  color: #000;
+  letter-spacing: 4px;
+  font-size: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.main-div {
+  height: 100vh;
+  width: 100%;
+  /* filter: sepia(90%); */
+  background-image: linear-gradient(
+    rgb(255 255 255 / 0), rgba(255, 255, 255, 0)), url(../images/back.jpg);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+main {
+  margin-top: 700px;
+  position: absolute;
+  background-color: #fff;
+}
+
+h1, p {
+  text-align: start;
+  position: relative;
+}

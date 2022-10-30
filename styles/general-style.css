@@ -1,0 +1,56 @@
+:root {
+  --green: #999;
+  --lightergreen: #686868;
+  --blue: #02f;
+}
+
+html {
+  font-family: 'Lexend', sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--green);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--lightergreen);
+}
+
+main {
+  /* margin: 5rem; */
+  padding: 2rem 4rem 6rem 4rem;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+p {
+  margin-bottom: 12px;
+}
+a {
+  color: hsl(0 0% 0%);
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: var(--blue);
+}
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+}
