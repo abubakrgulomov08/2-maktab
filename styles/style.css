@@ -59,17 +59,6 @@ nav ul li a:hover {
   margin: 5px;
 }
 
-@media screen and (max-width: 768px) {
-  nav {
-    min-width: none;
-  }
-  .main-div {
-    position: relative;
-    background-attachment: scroll;
-    background-size:contain;
-    background-position: bottom;
-  }
-}
 
 .bold {
   color: #000;
@@ -82,4 +71,35 @@ nav ul li a:hover {
 .batafsil {
   font-family: 'Poppins', sans-serif;
   text-decoration: underline;
+}
+
+main {
+  background-color: #fff;
+  
+  padding: 1rem 4rem 6rem 4rem;
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    min-width: none;
+  }
+  .main-div {
+    position: relative;
+    background-image: url(../images/back2.jpg);
+    background-attachment: scroll;
+  }
+  .box1  {
+    gap: 9px;
+  }
+  main {
+    margin-top: 4rem;
+  }
+  h2 {
+    font-size: 1em;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+
 }
