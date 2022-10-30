@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500;700&display=swap');
+
+.body-div {
+  display: flex;
+  gap: 25px;
+}
+
+.container {
+  width: 45%;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  /* box-shadow: rgba(56, 46, 240, 0.4) 5px 5px, rgba(56, 46, 240, 0.3) 10px 10px, rgba(56, 46, 240, 0.2) 15px 15px, rgba(56, 46, 240, 0.1) 20px 20px, rgba(72, 46, 240, 0.05) 25px 25px; */
+  margin: 5px;
+  border-radius: 15px;
+}
+
+.thumbnail {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.title {
+  margin-top: 2px;
+  padding: 1px 15px 15px 15px;
+}
+
+h1 {
+  font-size: 100%;
+  text-align: center;
+  border-bottom: 2px solid;
+}
+
+body h1 span {
+  color: var(--blue);
+}
+
+.box1 {
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+@media only screen and (max-width: 649px) {
+  .body-div 
+  {
+    flex-direction: column;
+  }
+  .container
+  {
+    width: 100vw;
+  }
+  
+}
